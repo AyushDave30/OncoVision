@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 Oral Cancer Histopathological Detection - Streamlit App
-Fixed version with improved functionality and user experience
 """
 
 import streamlit as st
@@ -21,7 +20,7 @@ warnings.filterwarnings("ignore")
 
 # Page configuration
 st.set_page_config(
-    page_title="🦷 Oral Cancer Detection",
+    page_title="🦷 OncoVision",
     page_icon="🔬",
     layout="centered",
     initial_sidebar_state="expanded",
@@ -616,3 +615,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
